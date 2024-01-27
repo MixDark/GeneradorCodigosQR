@@ -4,3 +4,6 @@ Aplicación para generar codigos QR usando las librerias Qrcode y Tkinter
 
 ![image](https://github.com/MixDark/GeneradorCodigosQR/assets/151795541/fe160ca1-5ba3-4e9b-8cda-3464e1225dad)
 
+![mi codigo](https://github.com/MixDark/GeneradorCodigosQR/assets/151795541/31981cc3-09df-4591-bb7a-acebfe07c330)
+
+
