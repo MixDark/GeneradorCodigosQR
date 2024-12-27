@@ -1,4 +1,4 @@
-# Convertidor de texto a audio
+# Generador de codigos QR
 
 ## Descripción
 Una aplicación que permite genera un codigo QR recibiendo como parametro una URL.
