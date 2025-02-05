@@ -10,6 +10,7 @@ Una aplicación que permite genera un codigo QR recibiendo como parametro una UR
 
 ## Características
 - Generador codigo QR
+- Permite visualizar el codigo QR
 - Permite elegir la ubicación de guardado del archivo
 - Interfaz simple e intuitiva
 
@@ -37,4 +38,5 @@ python Interfaz_Grafica.py
 
 ## Estructura del proyecto:
 
-![image](https://github.com/user-attachments/assets/e29fe8c6-01b3-4b4b-93d3-61cea0260145)
+![image](https://github.com/user-attachments/assets/7bd7ea82-701b-48b4-affe-adf272eb9904)
+
