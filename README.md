@@ -1,14 +1,12 @@
 # Generador de codigos QR
 
 ## Descripción
-Una aplicación que permite genera un codigo QR recibiendo como parametro una URL.
+Una aplicación que permite genera un codigo QR recibiendo como parametro una URL o un texto.
 
 ## Capturas de pantalla
-![image](https://github.com/MixDark/GeneradorCodigosQR/assets/151795541/8fc95475-7173-490f-8781-6676efb58edb)
+![image](https://github.com/user-attachments/assets/8f3dfc21-3e75-473a-b3af-9bf8ca8963e7)
 
-![image](https://github.com/MixDark/GeneradorCodigosQR/assets/151795541/fe160ca1-5ba3-4e9b-8cda-3464e1225dad)
-
-![mi codigo](https://github.com/MixDark/GeneradorCodigosQR/assets/151795541/31981cc3-09df-4591-bb7a-acebfe07c330)
+![image](https://github.com/user-attachments/assets/d3fc1abc-638a-48e4-858e-ec057fc09dab)
 
 ## Características
 - Generador codigo QR
@@ -17,10 +15,12 @@ Una aplicación que permite genera un codigo QR recibiendo como parametro una UR
 
 ## Tecnologías utilizadas
 - Python 3.x
-- Tkinter
+- PyQt6
 
 ## Requerimientos
-- Python 3.x 
+- Python 3.x
+- PyQt6
+- qrcode
 
 ## Instalación desde CLI
 1. Clona el repositorio: 
