@@ -1,0 +1,8 @@
+qrcode[pil]>=8.0
+PyQt6>=6.8.0
+Pillow>=11.0.0
+pyzbar>=0.1.9
+reportlab>=4.0.7
+vobject>=0.9.6
+pyperclip>=1.8.2
+python-barcode>=0.14.0
