@@ -314,7 +314,7 @@ class InterfazQR(QMainWindow):
         row3.setSpacing(30)
         row3.setContentsMargins(0, 0, 0, 0)
         label_logo = QLabel("Agregar logo:")
-        self.logo_check = QCheckBox("Usar Logo")
+        self.logo_check = QCheckBox("Usar logo")
         row3.addWidget(label_logo)
         row3.addWidget(self.logo_check)
         row3.addStretch()
@@ -471,7 +471,7 @@ class InterfazQR(QMainWindow):
         wifi_layout.addWidget(label_sec)
         wifi_layout.addWidget(self.wifi_security)
         
-        self.wifi_hidden = QCheckBox("Red Oculta")
+        self.wifi_hidden = QCheckBox("Red oculta")
         wifi_layout.addWidget(self.wifi_hidden)
         
         generar_wifi = QPushButton("Generar WiFi")
@@ -563,7 +563,7 @@ class InterfazQR(QMainWindow):
         generar_email.setMaximumWidth(140)
         generar_email.setMinimumHeight(36)
         generar_email.clicked.connect(self.generar_email_qr)
-        email_layout.addSpacing(15)
+        email_layout.addSpacing(30)
         button_layout_email = QHBoxLayout()
         button_layout_email.addStretch()
         button_layout_email.addWidget(generar_email)
@@ -793,9 +793,9 @@ class InterfazQR(QMainWindow):
     def seleccionar_logo(self):
         filename, _ = QFileDialog.getOpenFileName(
             self,
-            "Seleccionar Logo",
+            "Seleccionar logo",
             "",
-            "Image Files (*.png *.jpg *.jpeg *.bmp);;All Files (*)"
+            "Image files (*.png *.jpg *.jpeg *.bmp);;All files (*)"
         )
         if filename:
             self.logo_path = filename
@@ -871,9 +871,9 @@ class InterfazQR(QMainWindow):
     def cargar_imagen_lector(self):
         filename, _ = QFileDialog.getOpenFileName(
             self,
-            "Cargar Imagen QR",
+            "Cargar imagen QR",
             "",
-            "Image Files (*.png *.jpg *.jpeg *.bmp);;All Files (*)"
+            "Image files (*.png *.jpg *.jpeg *.bmp);;All Files (*)"
         )
         
         if filename:
