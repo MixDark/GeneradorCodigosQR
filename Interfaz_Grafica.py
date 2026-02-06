@@ -61,7 +61,7 @@ class InterfazQR(QMainWindow):
         self.setGeometry(x, y, width, height)
         self.setMinimumSize(width, height)
         self.setMaximumSize(width, height)
-        self.setWindowIcon(QIcon('icono.png'))
+        self.setWindowIcon(QIcon('icono.ico'))
         
         # Widget central con tabs y botón de modo oscuro
         main_widget = QWidget()
